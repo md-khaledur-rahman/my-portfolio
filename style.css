@@ -1,0 +1,321 @@
+
+/*Setting common property for body*/
+html {
+    scroll-behavior: smooth;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+} */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    font-size: 20px;
+}
+
+
+/*setting the main body*/
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+.main{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-image: url(pictures/download.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main .section{
+    margin: 0px auto;
+}
+
+.main .section .name p{
+    font-size: 25px;
+    margin-bottom: 0px;
+    line-height: normal;
+}
+.main .section .name h1{
+    font-size: 60px;
+    line-height: normal;
+    margin: 0;
+
+}
+.main .section .intro h2{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.name {
+
+}
+
+
+.button{ /* button for my cv */
+    width: 550px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    box-shadow: 10px;
+    border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: aqua;
+}
+.button:hover{ /* button for see my cv */
+    background-color: rgb(77, 26, 160);
+    color: white;
+}
+
+/* .social-container{
+    height: 100px;
+    width: 300px;
+} */
+
+.socials{ /* It is Used for the social icons on Headers */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.socials:hover{
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.mypic{
+    border-radius: 25px;
+    width: 300px;
+    height: 400px;
+    margin: 10px 10px 10px;
+    border: 2px solid #333;
+}
+
+
+/* ------------------------------------- */
+/* --------------MAIN END--------------- */
+/* ------------------------------------- */
+
+
+
+
+
+
+/* ------------------------------------- */
+/* ------------NAV BAR START------------ */
+/* ------------------------------------- */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    font-size: medium;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+/* nav ul li:hover {
+    background-color: #1fe4a6;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+} */
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------------- */
+/* ------------NAV BAR END-------------- */
+/* ------------------------------------- */
+
+
+
+
+.about-me {
+    text-align: justify;
+}
+
+
+
+
+/* ------------------------------------- */
+/* --------COMMON SECTION START--------- */
+/* ------------------------------------- */
+
+
+/*Common margin for each section*/
+section {
+    margin-bottom: 20px;
+    scroll-margin-top: 45px;
+}
+
+/*all property for each sections*/
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #333;
+    scroll-margin-top: 45px;
+}
+
+
+/*designing list*/
+.skills ul,
+.experience ul,
+.achievements ul,
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li,
+.experience ul li,
+.achievements ul li,
+.projects ul li {
+    background: #ebebeb;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid #333;
+}
+
+
+.sub-heading{
+    text-align: center;
+    font-size: 25px;
+    color: #7627b6;
+    line-height: normal;
+}
+/* ------------------------------------- */
+/* ---------COMMON SECTION END---------- */
+/* ------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+/* -------EDUCATION SECTION START------- */
+/* ------------------------------------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid #c6c5c5;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #8ca2f3;
+    text-align: center;
+}
+
+/* ------------------------------------- */
+/* --------EDUCATION SECTION END-------- */
+/* ------------------------------------- */
+
+
+
+
+
+
+/*form designing*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
